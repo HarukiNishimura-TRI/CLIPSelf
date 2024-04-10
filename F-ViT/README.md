@@ -13,6 +13,8 @@ git clone https://github.com/open-mmlab/mmdetection.git
 cd mmdetection
 git checkout v2.28.1
 pip install -e . -v
+cd ~/path/to/CLIPSelf/F-ViT
+pip install -e .
 ```
 For other installation methods, please refer to the official website of 
 [MMCV](https://github.com/open-mmlab/mmcv.git) and [MMDetection](https://github.com/open-mmlab/mmdetection.git).

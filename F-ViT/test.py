@@ -19,7 +19,7 @@ from mmdet.models import build_detector
 from mmdet.utils import (build_ddp, build_dp, compat_cfg, get_device,
                          replace_cfg_vals, rfnext_init_model,
                          setup_multi_processes, update_data_root)
-import models    # noqa
+import fvit_models    # noqa
 import datasets   # noqa
 
 
